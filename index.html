@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe - model 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h3>TIC TAC TOE</h3>
+  <div class="selection">
+    <div class="select-mode">
+      <p>Select Mode</p>
+      <div class="mode">
+        <button class="player-mode btn">2-Player</button>
+        <button class="computer-mode btn">Computer</button>
+      </div>
+    </div>
+    <div class="select-player" style="display: none;">
+      <p>Select Player</p>
+      <div class="player">
+        <div class="x player-box">X</div>
+        <div class="o player-box">O</div>
+      </div>
+    </div>
+  </div>
+  <div class="play-area" style="display: none;">
+    <div class="player-move">
+      <div class="player-1">Player 1 : X</div>
+      <div class="player-2">Player 2 : X</div>
+    </div>
+    <table id="table">
+      <tr>
+        <td class="box"></td>
+        <td class="box"></td>
+        <td class="box"></td>
+      </tr>
+      <tr>
+        <td class="box"></td>
+        <td class="box"></td>
+        <td class="box"></td>
+      </tr>
+      <tr>
+        <td class="box"></td>
+        <td class="box"></td>
+        <td class="box"></td>
+      </tr>
+    </table>
+  </div> 
+  <div class="result" style="display: none;">
+    <p class="result-text">X wins</p>
+    <button class="play-again">Play Again</button>
+  </div> 
+
+  <script src="script.js"></script>
+</body>
+</html>
