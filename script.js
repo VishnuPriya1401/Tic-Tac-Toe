@@ -172,6 +172,8 @@ function checkWin(){
 
       document.querySelector('.result').style.display= "block";
 
+      document.querySelector('.play-again').style.display="block";
+
       for(let j = 0; j<3; j++){
         box[winCondition[i][j]].style.color="var(--theme-2)";
       }
