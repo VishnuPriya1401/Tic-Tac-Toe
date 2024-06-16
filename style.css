@@ -146,6 +146,7 @@ table tr td:last-child{
   border: none;
   border-radius: .6rem;
   cursor: pointer;
+  margin: auto;
 }
 .play-again:hover{
   padding: .6rem 2rem;
